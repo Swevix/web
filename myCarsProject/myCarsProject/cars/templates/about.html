@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О нас - Лучшие машины</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <header class="py-3">
+      <h1>О нас</h1>
+      <nav>
+        <a href="{% url 'home' %}">Главная</a> |
+        <a href="{% url 'about' %}">О нас</a> |
+        <a href="{% url 'compare' %}">Сравнить</a> |
+        <a href="{% url 'cars' %}">Машины</a>
+      </nav>
+    </header>
+    <main>
+      <p>Мы — команда автолюбителей, собравшая информацию о лучших автомобилях для создания объективных рейтингов и сравнений.</p>
+    </main>
+  </div>
+</body>
+</html>
